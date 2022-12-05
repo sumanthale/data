@@ -1,0 +1,372 @@
+Final Progress Report
+
+Name: 
+Student ID: 
+	
+		I was hired as an intern for a Junior Full Stack Java Developer in UNITED SOFT SOLUTIONS, 813 W Central Ave, Suite 3, Bentonville, AR 72712 on a full-time basis. I'm working here with NAME direction. His contact info is as follows:
+
+Employer Name: NAME
+Email:  NAME @unitedsoftsolutions.com
+Contact Number: 
+
+Project and its Description:
+		
+		The project that I’m working on right now is on LMS. As I’m a full-stack developer, my role in this project is mainly focused on working with frontend technologies, in which I’m going to give a detailed description of the job, roles, and responsibilities.
+
+Description:
+	
+		Before discussing the LMS application, I need to give a brief introduction to the tool that our team currently uses. We have been implementing all of our projects using the tool Wavemaker which helps the developer to finish his tasks much easier, within a short period. Moreover, the developer does need not to write a lot of code in implementing the required actions for the project. We will be discussing this tool in detail while moving forward with this document. Now coming to LibraryManagementSystem (LMS) application it is a library application that we are designing as per the business analyst requirements. It includes all kinds of account holders, payment types, switching accounts, and billing statements. Here we get the data from various databases by using SQL, web services.
+
+		The following describes the technologies, tools, languages, and frameworks that I’m using in my project
+
+
+
+Technology, Tools, Languages, and Frameworks
+Version
+Description
+Angular
+8.1.0
+Angular is a web page development framework based on JavaScript.
+ReactJS
+18.0.0Open-source JavaScript library for creating single-page application user interfaces. You can construct reusable user interface components by handling view layer for web and mobile apps.
+JavaScript
+ES13
+Users access JavaScript to design and develop interactive web applications.
+Java
+1.7
+The MFB application is built using Java programming language. 
+HTML5
+5.3
+HTML refers to HyperTextMarkupLanguage, it includes new markup, APIs, and extra HTML, and XHTMKL style syntax.
+CSS3
+4.15
+It is a version of the CSS standard that is used to style and format web pages. Standards are divided into various modules.
+Spring Boot
+2.6.6
+It is employed in the creation of a microservice.
+NodeJS
+17
+NodeJS used for traditional web sites.
+J2EE Web Frameworks
+
+1.4
+It is a Java centric environment for designing, producing, and deploying web-based enterprise applications online.
+JMS (Java Message Service)
+2.0
+It is capable of reading, sending, and creating messages.
+MySQL
+5.6
+The goal of a web database is to administer a relational database using SQL.
+Agile
+9.3.6
+Agile is a software and project development process that is iterative.
+GIT
+2.20
+It’s a version control system that helps people contribute their work.
+Junit, Docker
+5
+It is the testing tool that allows the developer to test a small bit of code.
+Eclipse, Visual Studio Code
+
+4.23.0
+It is tool that allows the developer to write code and make changes as needed.
+
+
+My participation and the program I worked on:
+	
+	From day one of my internships, I’ve been working hard to learn new skills, technologies, and tools with which I have never been familiar. Sometimes it seems to be very difficult for me in learning, and understand those tools, and frameworks. On my initial days of internship, I’m new to everyone so I feel very tense that how it was going to be. But later going on with the project I become very comfortable in the work and friendly with everyone. As my internship is remote, I’ve got enough time to explore myself and understand the application. On the first day, I had a conversation with my manager about the project, and later on, came to know my work tasks. Firstly, I’m provided with the necessary documentary and got shipped the laptop to work. It took me around three-four days to get all the required permissions and additional licenses which are mandatory to start working.  
+
+	Meanwhile, I had a conversation with my lead and he explained to me in detail how the team works in accomplishing the tasks. He mentioned that everyone including me in the team is working on a tool Wavemaker which is new to everyone. And also, he said that everyone in the team must go through the training videos of Wavemaker and must finish the project that we trained in those videos. It took me around one week to go through all of those videos and finish the tasks. I have also got access to Jira and bitbucket, as well as the application to work. 
+
+	Initially, I started going through all the documentaries that were provided to me later on finishing the training I was assigned a small task and also asked to help the members of the group. And in the second week of my internship, I started working on setting up all the required dev environments and configuring Apache Tomcat Server. Initially, it took me much time to configure the server as I need the password to access Global services. And I got access to all the database systems and every time when we log in to the system we need to connect to a VPN (a virtual private network) and this varies from location to location. 
+
+      As we will be connecting to Cisco VPN. In the second week, our team had a KT (Knowledge Transfer) which is given by a senior member of the team for about 60 minutes. Then after that everyone on the team got a clear understanding of the project that we are working on. At first, we write the code in our local environment as per the business requirement, and then we push the code to the dev environment where all developer code combined with all testing takes place. 
+
+	As of now, there are 5 developers on my team and 2 testers.
+
+The program I worked on:
+	
+	As a full-stack developer, my role in this project is mainly associated with working on the front-end part in which I have given a web page to design for the library management system. On the front-end side, I have used HTML, CSS, and ANGULAR to create web pages. Our team works on the web-based system on the other side we also had a team that works on the mobile application. Here I’ve created web pages for login, student records, transactions, and billing. For styling the webpages I’ve used CSS so that the webpage looks attractive and well organized. I will be discussing in detail the code and issues that had been assigned to me as well I will be mentioning some sort of code that I worked on.
+This Project centers around an advancement in cycles and innovation to decrease cost and intricacy, better influence our abilities and scale, better reaction to market and volume changes in the land got loaning, and further develop the general client experience.
+I have been fundamentally Involved being the development of a show layer utilizing JSP and Servlets with improvement instruments Eclipse and RAD. 
+
+The issues that I worked on:
+1. Problem:
+
+On the student login page, forgot password is missing. So, I’ve worked on that problem.
+Solution: 
+
+After knowing about the problem statement, I don’t have any idea how to resolve this. Then I had a KT session with my manager and got to know how these kinds of problems can be handled after that, I got a clear understanding of the problem and started working on it. Meanwhile, I’ve gone through stack overflow as a reference and also found that some other developers also working on the same problem. As this issue is a front-end, I have gone through all the HTML, and CSS files and finally came to know that I need to do some coding in the HTML file. So, below is the screenshot that I’m attaching for reference purposes.
+
+
+ 
+By adding the below code I’ve done working on the issue. And it looks as below.
+
+
+
+<div class = "row">
+            <a href ="#" style ="color:red" class ="mas">forgot password</a>
+            </div>
+
+From my experience, I suggest that using stack overflow is really helpful for anyone who wants to become good at programming. 
+Here, I will be mentioning some sort of code that I’ve written for designing the web pages.
+
+<!DOCTTYPE html>
+<html>
+<head>
+<meta name = “viewport” 
+      content =width:”100PX”>
+      
+<title> 
+      Login Page for Library Management System 
+      </title>
+<style>
+	body
+      { 
+      	Font-family: Serif, Arial;
+      }
+</style>
+
+<form action =” hel” method =” get” class = “forms-sample” >
+	<div class =” forms-sample”>
+
+			<label for = “Name”> Enter user name: </label>
+	<input type = “text” name =” Name” id =” Name” placeholder =” user name”>
+		</div>
+
+	<div class =” forms-sample”>
+
+			<label for = “password”> Enter password: </label>
+	<input type = “password” name =” password” id =” password” placeholder =” password”>
+		</div>
+
+	<div class =” forms-sample”>
+	<input type = “submit” value =” submitted”>
+		</div>
+		
+		<div class =” forms-sample”>
+		<a href = “#” style = “color: red” class =” forms-sample”> Forget Password </a>
+      </div>
+
+
+
+The above HTML code is used to design the web page as per the business requirement. But HTML itself doesn’t show any kind of impressiveness to the webpage. In order to make the webpage more attractive, we need to add some external coding and this can be done by using CSS (cascading style sheet). Here we add the styling tags as long as the web page looks clean and simple. Styling can be done internally on the HTML page or externally by using CSS and then we link the external CSS to the HTML page so that all the additional features will be implemented on the webpage.
+
+
+
+       # {
+        margin: 3;
+       padding: 2;
+       box-color: red;
+       width: 200PX;
+       height: 400PX;
+		}
+		
+
+	body {
+		
+			font-family: italic;
+			padding: 30px;
+			font-color: green;
+			font-background-color: yellow;
+	}
+      
+      
+	.h1 
+		{
+			font-family: Aerial;
+			padding: 3px;
+			background-color: 4px;
+			margin: 1px;
+			height: 20%;
+		}
+
+	.h2
+		{
+			font-family: italic;
+			padding: 20%;
+			background-color: 2px;
+			margin: 10%;
+			height: 2px;
+		}
+
+	.h3
+		{
+			margin: 20%
+			font-family: bold;
+			padding: 20%;
+			background-color: 2px;
+
+		}
+
+	.p
+		{
+      font-family: italic;
+			padding: 20%;
+			background-color: 2px;
+			margin: 10%;
+			height: 2px;
+		}
+			
+body 
+	{
+		Height: 100%;
+		Alignment: left;
+		Padding: 2PX;
+		Margin: 30%;
+		Background-color: red;
+		Font-family: bold;
+		Position: relative;
+	
+	}
+html 
+	{
+		Padding: 30%;
+		Margin: center;
+		Background-color: blue;
+	}
+
+Below is the JavaScript code that states Log inform, Login Button, and error message form. 
+
+Const LForm = doct.getElementById(“Login_page”);
+Const LFormButton = doct.getElementById(“Login_page_submit”);
+Const LFormMsg = doct.getElementById(“Login_page_message”);
+
+
+LFormButton.addListener(“double-click”, (c) => {
+	c.Default ();
+	const name = LForm.name.value;
+	const pwd = LForm.pwd.value;
+if (name == “ball” && pwd== “wesa_23”) {
+	alert (“Login successful”);
+
+loc.relad ();
+}
+	Else {
+
+      LFormMsg.style.capa = 2;
+	        }
+})
+
+
+2. Problem:
+
+The second problem that I encountered while testing the application is missing the option for selecting multiple books in the dropdown box.
+
+Solution:
+
+	After getting done with the first problem then I again started working on testing the application once again to check whether the application is working as per the business requirement or not. When I started going through a step-by-step procedure, I found that the student has only the option to choose a single book but as per the requirement, he needs to have an option for selecting multiple books. 
+
+I found this is an error and I took screenshots and added a comment in the Jira in which all our developer's tickets and their related comments are posted. After going through this ticket issue my lead reached out to me to discuss it in detail about the issue and he assigned me that ticket to fix the issue. Initially, I didn’t have any idea how to deal with this kind of issue. So, then I reached out to my lead and explained that I need some kind of help in order to figure out this error then he assigned me one of the senior developers on the team and asked me to work with him. Then he gave me a KT (knowledge transfer) session and explained how to deal with these issues and what the coding stuff I needed to do. 
+
+Initially, after having some knowledge of the issue I started how to solve this error. I have gone through stack overflow and some other JavaScript MDN websites to get an idea of this. A key and the list value were the first two pieces of information I needed to figure out the action page where the list value is displayed. And from that action class, I learned the database calling value, and from the database calling value, I was able to figure out the database table in which the language preferences are stored. Upon closer inspection, I discovered that other books selecting option is required and these are needed to be added to the database in which they are missing.
+
+Later, I was granted access to the DEV environment, where I was able to create the database. Because in the DEV environment I only had read access to the database. To add those subjects to the database table. I used the INSERT query once I had been granted permission to write the database. Afterward, I restarted the Apache Tomcat server and double-checked all of the code. Now that I have the subjects, I need to display them on the website.
+
+
+
+Here I’m attaching the code that I worked on:
+
+<html>
+<head>
+<meta name = “Content-Type” 
+      content =width:”100PX”>
+<title> Student books </title>
+</head>
+<body>
+<html: form action=”/ActionInput”>
+<table>
+<tr>
+	<td> Select Books: </td>
+</tr>
+
+<tr>
+	<td> Author </td>
+	<th> Science </th>
+	<th> Mathematics </th>
+</tr>
+<tr>
+	<td colspan =”2” align =”left”> count </td>
+	<th>12</th>
+	<th>10</th>
+</tr>
+</html:form>
+</body>
+</html>
+
+Class.forName(“com.mysql.jdbc.Driver”);
+
+Connection connection = 
+
+DriverManager.getConnection(“jdbcmysql//localhost:2208/javaproject?autoRecoonect = true& useSSL=false”, “root”,, “bh11”);
+
+
+Future work:
+
+As we discussed that this project is totally designed for institutional purposes by using the user interface and restful APIs. Moving forward we will be implementing the entire application by using the tool so that it makes the developer very easy to handle the application and code it. This makes the developer consume less amount of time.
+
+An overview of my internship experience:
+
+As a software engineer, I’m interested in coding which makes to think more creatively and enhances my skills while performing my day-to-day activities. During the initial month period, of my internship, I was so confused about choosing the right technology that suits my skills and interest. As I joined as an intern, I got a clear understanding of how the actual corporate work will be and then came to know what my interests are. Then I started exploring and learning the new skills as per the job requirement that was provided by our company.
+
+Later on, I was assigned a few tasks to check my learning status, and afterward, I was assigned a project which I discussed above (LMS). Here in this project, initially, I had done coding, designing, testing, and problem-solving in the Jira. Here I loved my work as a developer and gave my efforts to the work and had a lot of fun with my teammates. 
+
+So, this is all I learned, and got a good knowledge of the application.
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
